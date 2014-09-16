@@ -31852,3 +31852,1121 @@ Processing by DonorsController#index as HTML
   [1m[35mDonor Load (0.4ms)[0m  SELECT "donors".* FROM "donors"
   Rendered donors/index.html.erb within layouts/application (3.4ms)
 Completed 200 OK in 157ms (Views: 155.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 112.210.11.158 at 2014-09-16 13:23:22 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DonorsController#index as HTML
+  [1m[35mDonor Load (0.4ms)[0m  SELECT "donors".* FROM "donors"
+  Rendered donors/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 506ms (Views: 483.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:23 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:24 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:24 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:24 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:24 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:24 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:25 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:25 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:25 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:26 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:26 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:26 +0000
+
+
+Started GET "/" for 112.210.11.158 at 2014-09-16 13:23:37 +0000
+Processing by DonorsController#index as HTML
+  [1m[36mDonor Load (0.3ms)[0m  [1mSELECT "donors".* FROM "donors"[0m
+  Rendered donors/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 99ms (Views: 97.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:23:39 +0000
+
+
+Started GET "/" for 112.210.11.158 at 2014-09-16 13:24:47 +0000
+Processing by DonorsController#index as HTML
+  [1m[35mDonor Load (0.3ms)[0m  SELECT "donors".* FROM "donors"
+  Rendered donors/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 106ms (Views: 104.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:24:48 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:24:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:24:49 +0000
+
+
+Started GET "/" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+Processing by DonorsController#index as HTML
+  [1m[36mDonor Load (0.5ms)[0m  [1mSELECT "donors".* FROM "donors"[0m
+  Rendered donors/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 127ms (Views: 122.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:12 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:13 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:13 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:13 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:13 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=singa" for 112.210.11.158 at 2014-09-16 13:28:17 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>"singa"}}
+  [1m[35mDonor Load (0.3ms)[0m  SELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'All' AND "donors"."location" = 'singa' LIMIT 50
+  Rendered donors/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 109ms (Views: 102.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:17 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:17 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:17 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:17 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:18 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=O%2B&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 13:28:22 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"O+", "location"=>""}}
+  [1m[36mDonor Load (0.3ms)[0m  [1mSELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'O+' AND "donors"."location" = '' LIMIT 50[0m
+  Rendered donors/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 104ms (Views: 101.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:24 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 13:28:29 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[35mDonor Load (0.2ms)[0m  SELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'All' AND "donors"."location" = '' LIMIT 50
+  Rendered donors/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 109ms (Views: 107.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:28:30 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 13:31:30 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[36mDonor Load (0.3ms)[0m  [1mSELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'All' AND "donors"."location" = '' LIMIT 50[0m
+  Rendered donors/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 113ms (Views: 111.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:31:30 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:31:30 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:31:30 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:31:30 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:31:30 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:31:30 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:31:31 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[35mDonor Load (0.2ms)[0m  SELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'All' AND "donors"."location" = '' LIMIT 50
+  Rendered donors/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 118ms (Views: 112.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:08 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:09 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:09 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:09 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:09 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 13:32:12 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[36mDonor Load (0.2ms)[0m  [1mSELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'All' AND "donors"."location" = '' LIMIT 50[0m
+  Rendered donors/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 105ms (Views: 103.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:13 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[35mDonor Load (0.2ms)[0m  SELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'All' AND "donors"."location" = '' LIMIT 50
+  Rendered donors/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 104ms (Views: 99.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:26 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:27 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:27 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 13:32:27 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 14:32:47 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[36mDonor Load (0.2ms)[0m  [1mSELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'All' AND "donors"."location" = '' LIMIT 50[0m
+  Rendered donors/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 166ms (Views: 160.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:48 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:48 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:48 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:48 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:49 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:49 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:49 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:49 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:50 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:50 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:50 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:50 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:51 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 14:32:55 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[35mDonor Load (0.3ms)[0m  SELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'All' AND "donors"."location" = '' LIMIT 50
+  Rendered donors/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 106.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:56 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:56 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:56 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:56 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:56 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:56 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 14:32:57 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:57 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:57 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:58 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:58 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 14:32:58 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 14:36:44 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[36mDonor Load (0.4ms)[0m  [1mSELECT "donors".* FROM "donors"[0m
+  Rendered donors/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 112ms (Views: 108.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:46 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:46 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:46 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:46 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:46 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:46 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:47 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 14:36:47 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:47 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 14:36:47 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 14:36:47 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 14:36:48 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 14:36:48 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 14:36:48 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 14:36:48 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 14:36:48 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 14:36:48 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=O%2B&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 14:36:57 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"O+", "location"=>""}}
+  [1m[35mDonor Load (0.2ms)[0m  SELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'O+' LIMIT 50
+  Rendered donors/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 104ms (Views: 101.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:58 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:58 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:58 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 14:36:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:00 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:00 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:00 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:01 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:01 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:01 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:02 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:02 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:04 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:05 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=Singapore" for 112.210.11.158 at 2014-09-16 14:37:13 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>"Singapore"}}
+  [1m[36mDonor Load (0.3ms)[0m  [1mSELECT  "donors".* FROM "donors"  WHERE "donors"."location" = 'Singapore' LIMIT 50[0m
+  Rendered donors/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 105ms (Views: 102.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:15 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:15 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:15 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:15 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:15 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:15 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:16 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:16 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:18 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:18 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:18 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:18 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=O%2B&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 14:37:24 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"O+", "location"=>""}}
+  [1m[35mDonor Load (0.2ms)[0m  SELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'O+' LIMIT 50
+  Rendered donors/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 102ms (Views: 100.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:25 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:25 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:25 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:25 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:26 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:26 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 14:37:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:27 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:27 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:27 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:28 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:28 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 14:37:28 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 14:38:22 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[36mDonor Load (0.2ms)[0m  [1mSELECT "donors".* FROM "donors"[0m
+  Rendered donors/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 100ms (Views: 98.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 14:38:23 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 14:38:23 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:38:23 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:38:23 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 14:38:24 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 14:38:24 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 14:38:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 14:38:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 14:38:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 14:38:24 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 14:38:25 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 14:38:25 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 14:38:25 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 14:38:25 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 14:38:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 14:38:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 14:38:26 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=O%2B&search%5Blocation%5D=Somewhere" for 112.210.11.158 at 2014-09-16 14:39:38 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"O+", "location"=>"Somewhere"}}
+  [1m[35mDonor Load (0.2ms)[0m  SELECT  "donors".* FROM "donors"  WHERE "donors"."blood_type" = 'O+' AND "donors"."location" = 'Somewhere' LIMIT 50
+  Rendered donors/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 114ms (Views: 109.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:39:39 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 14:39:39 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 14:39:39 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 14:39:39 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 14:39:40 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 14:39:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 14:39:40 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:39:40 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 14:39:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 14:39:40 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 14:39:41 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 14:39:41 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 14:39:41 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 14:39:41 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 14:39:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 14:39:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 14:39:42 +0000
