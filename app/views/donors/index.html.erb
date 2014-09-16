@@ -1,0 +1,26 @@
+<table class="table table-hover">
+  <tr>
+    <th class="col-md-3">Name</th>
+    <th class="col-md-1">Blood Type</th>
+	<th class="col-md-2">Location</th>
+	<th class="col-md-2">Contact Info</th>
+	<th class="col-md-2">Last Donated</th>
+	<th class="col-md-2"></th>
+  </tr>
+  <% if @donors %>
+  <% @donors.each do |donor| %>
+    <tr>
+      <td><%= donor.name %></td>	  
+      <td style="text-align:center;"><%= donor.blood_type %></td>
+      <td><%= donor.location %></td>	  
+	  <td><%= donor.contact_info %></td>	
+	  <td><%= donor.last_donated %></td>		  
+	  <td><%= link_to 'View', donor_path(donor) %>
+	  <% if session[:user_id] == 1 %>
+	  &nbsp;&nbsp;&nbsp;<%= link_to 'Delete', donor_path(donor), method: :delete, data: { confirm: 'Are you sure?' } %>
+	  <% end %>
+	  </td>
+    </tr>
+  <% end %>
+  <% end %>
+</table>
