@@ -32970,3 +32970,233 @@ Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 14:
 
 
 Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 14:39:42 +0000
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-16 14:45:37 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[35mDonor Load (0.2ms)[0m  SELECT "donors".* FROM "donors"
+  Rendered donors/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 179ms (Views: 167.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-16 14:45:38 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:45:38 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-16 14:45:38 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-16 14:45:38 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-16 14:45:38 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-16 14:45:39 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-16 14:45:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-16 14:45:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-16 14:45:39 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-16 14:45:39 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-16 14:45:39 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-16 14:45:39 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-16 14:45:39 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-16 14:45:39 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-16 14:45:39 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-16 14:45:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-16 14:45:40 +0000
+
+
+Started GET "/" for 112.210.11.158 at 2014-09-21 12:56:45 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DonorsController#index as HTML
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/donors_controller.rb:5:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.1@rails4/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1@rails4/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1@rails4/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1@rails4/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.2ms)
+
+
+Started GET "/donors?search%5Bblood_type%5D=All&search%5Blocation%5D=" for 112.210.11.158 at 2014-09-21 12:56:59 +0000
+Processing by DonorsController#index as HTML
+  Parameters: {"search"=>{"blood_type"=>"All", "location"=>""}}
+  [1m[35mDonor Load (0.3ms)[0m  SELECT "donors".* FROM "donors"
+  Rendered donors/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 1388ms (Views: 1384.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:01 +0000
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:01 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:01 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:02 +0000
+
+
+Started GET "/donors" for 112.210.11.158 at 2014-09-21 12:57:06 +0000
+Processing by DonorsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/donors_controller.rb:5:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.1@rails4/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1@rails4/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1@rails4/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1@rails4/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.3ms)
+
+
+Started GET "/donors" for 112.210.11.158 at 2014-09-21 12:57:49 +0000
+Processing by DonorsController#index as HTML
+  [1m[36mDonor Load (0.5ms)[0m  [1mSELECT "donors".* FROM "donors"[0m
+  Rendered donors/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 118ms (Views: 113.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:49 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:49 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:49 +0000
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:49 +0000
+
+
+Started GET "/assets/donors.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:49 +0000
+
+
+Started GET "/assets/home.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/users.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:51 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:51 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:51 +0000
+
+
+Started GET "/assets/donors.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:52 +0000
+
+
+Started GET "/assets/home.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:52 +0000
+
+
+Started GET "/assets/users.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 112.210.11.158 at 2014-09-21 12:57:52 +0000

@@ -2,10 +2,11 @@ class DonorsController < ApplicationController
 	def index
 		search = params[:search]
 		@blood_types = ['All', 'O+', 'O-', 'A+', 'A-', 'B+', 'B-', 'AB+', 'AB-'];
-		@blood_type = search[:blood_type]
-		@location = search[:location]
 		
 		if search
+			@blood_type = search[:blood_type]
+			@location = search[:location]
+			
 			if search[:blood_type] == 'All' && search[:location].blank?
 				
 				@donors = Donor.all
