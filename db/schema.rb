@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140909112507) do
+ActiveRecord::Schema.define(version: 20141002085945) do
 
   create_table "donors", force: true do |t|
     t.integer  "user_id"
@@ -22,6 +22,13 @@ ActiveRecord::Schema.define(version: 20140909112507) do
     t.string   "occupation"
     t.date     "last_donated"
     t.text     "notes"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "fb_users", force: true do |t|
+    t.string   "fb_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

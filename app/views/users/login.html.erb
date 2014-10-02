@@ -1,19 +1,5 @@
 <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1500481033542452',
-      xfbml      : true,
-      version    : 'v2.1'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+  window.fbAsyncInit = function() { fbAsyncInit(); };
 </script>
 <div class="container">
 	<div class="col-md-offset-3 col-md-6" style="margin-top:40px;background-color:#eee;padding:20px;border-radius:10px;">
@@ -41,11 +27,9 @@
 		<% if @error %>
 			<p class="text-danger text-center">Invalid Username and/or Password.</p>
 		<% end %>
-		<div
-  class="fb-like"
-  data-share="true"
-  data-width="450"
-  data-show-faces="true">
-</div>
+		Or Login Using Facebook
+		<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+		</fb:login-button>
+		<div id="fb-root"></div>
 	</div>
 </div>
