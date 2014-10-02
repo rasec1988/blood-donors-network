@@ -28,6 +28,8 @@ class DonorsController < ApplicationController
 
 	def new		
 		@active = :register
+		@fb_id = params[:fb_id]
+		@name = params[:name]
 	end
 	
 	def create
@@ -38,6 +40,12 @@ class DonorsController < ApplicationController
 		donor[:user_id] = user.id
 	
 		@donor = Donor.new(donor)
+		
+		if params[:donor][:fb_id]
+			fb_user =  FbUser.find_by fb_id: params[:donor][:fb_id]
+			fb_user.user_id = user.id
+			fb_user.save
+		end
 
 		@donor.save
 		redirect_to donors_path

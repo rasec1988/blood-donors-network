@@ -8,7 +8,14 @@ function statusChangeCallback(response) {
 	// for FB.getLoginStatus().
 	if (response.status === 'connected') {
 		// Logged into your app and Facebook.
-		testAPI();
+		//testAPI();
+		
+		var fb_id = response.authResponse.userID;
+		
+		FB.api('/me', function(response) {
+			window.location = 'fblogin?fb_id=' + fb_id+ '&name=' + response.name;	
+		});	
+		
 	} else if (response.status === 'not_authorized') {
 		// The person is logged into Facebook, but not your app.
 		console.log('Please log into this app.');
@@ -43,7 +50,6 @@ function testAPI() {
 	console.log('Welcome!  Fetching your information.... ');
 	FB.api('/me', function(response) {
 		console.log('Successful login for: ' + response.name);
-		document.getElementById('status').innerHTML = 'Thanks for logging in, ' + response.name + '!';
 	});	
 }
 

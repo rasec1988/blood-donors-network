@@ -18,17 +18,22 @@ class UsersController < ApplicationController
 		end
   end
   
-  def fbLogin
+  def fblogin
   	fb_user = FbUser.find_by fb_id: params[:fb_id]
   	
   	if fb_user
-  		if fb_user.user_id != 0
+  		if fb_user.user_id
+  			donor = Donor.find_by user_id: fb_user.user_id
+  			#render :text => YAML::dump(donor)
+  			session[:donor_id] = donor.id
+				session[:user_id] = fb_user.user_id
   			redirect_to donors_path
   		else
-  			redirect_to donors_new_path
+  			redirect_to new_donor_path(:fb_id => params[:fb_id], :name => params[:name])
 			end
   	else
-  		redirect_to donors_new_path
+			fb_user = FbUser.new(:fb_id => params[:fb_id])
+  		redirect_to new_donor_path(:fb_id => params[:fb_id], :name => params[:name])
   	end
   end
   
